@@ -12,7 +12,28 @@
 </head>
 
 <body>
-    Implement product teaser, <a href="demo.html">See the demo</a>
+        <!-- each of the children of body becomes part of the "grid" -->
+    
+        <img id="rocks" 
+            src="assets\tonsorocks.jpg" 
+            alt="Bunch of rocks"
+        >
+        
+        <h1 id="header">Discover the magic of rocks!</h1>
+        
+        <p id="lead">
+            Join us in learning about the sheer magic associated with rocks. They're truly the wonder of the Earth. They can do all of the things.
+             You need to understand how important they are. So I must ask you, are you ready?!?
+        </p>
+    
+        <!-- use method="GET" but change action= to be your thank you page  -->
+        <form id="signup-form" action="demo-thank-you.html" method="GET">
+            <label for="email">
+                Email
+            </label>
+            <input id="email" name="email" required>
+            <button>Prove it!</button>
+        </form>
 
 </body>
 
